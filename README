@@ -1,0 +1,27 @@
+
+
+USER STORIES
+
+1. Create/load geo data OSM or custom
+  - load/update geo data (route + train statation) by queries from OSM/Yandex
+  - create custom weigth graph with cytoscape
+  - stream dunction for load and update data without reboot/stop services 
+
+2. Geo data load/update (RAM) -> platform function 
+  - load from source (load when start from default source /file/db/web service..)
+  - update data by request (put new data for calc) (without reboot and downtime/ hot reload)
+  - get data from loaded geo previosly (automaticaly and dynamically update client without reboot)
+
+3. Web UI widget. CytoscapeJS (native support graph and awesome styles captions and etc.)
+
+  - load async graph from platform/service
+  - ability to find route from start -> end with visialization (async request to platform) 
+
+4. Bulk processing route/logic with file/tcp/http support (load big file throw best chanel) 
+  - http requests 
+  - tcp request / laod formattet file throw tcp server 
+  - save data to db/file
+  - get result from stream on the fly
+  - compress data throw transport
+
+
